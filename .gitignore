@@ -1,6 +1,8 @@
 .ipynb_checkpoints/
 env.py
 tarkov_env.py
+# Specifically isolating this notebook, since this is where a lot of my testing went on, don't want it in the final presentation.
+scratch_pad.ipynb
 .DS_Store
 __pycache__
 .vscode/
@@ -11,8 +13,5 @@ package.json
 my_dictionary_simple.txt
 rapid_env.py
 anonymized-curriculum-access.txt
-*.jpg
-*.pdf
-*.png
 call-json
 *.json
