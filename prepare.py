@@ -28,6 +28,8 @@ def split_mall_data(df):
     print(f'Shape of test df: {test.shape}')
     return train, validate, test
 
+    
+
 def add_scaled_columns(train, validate, test, scaler, columns_to_scale):
     """This function scales the Telco2yr data"""
     new_column_names = [c + '_scaled' for c in columns_to_scale]
